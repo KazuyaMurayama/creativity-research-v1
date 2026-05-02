@@ -1,62 +1,76 @@
-# FILE_INDEX.md — creativity-research-v1
+# FILE_INDEX — creativity-research-v1
 
-> **新セッション開始時に必ずこのファイルを読む。**
-> ファイル追加・削除・移動時は必ずこのファイルを更新すること。
-> 最終更新: 2026-04-30
+> ⚠️ このファイルは自動生成です。手動編集は次回更新で上書きされます。
 
-## 概要
-創造性(Creativity)向上習慣に関するマルチエージェント調査研究の成果物群 v1。
-
-**スタック:** Markdown
-
----
-
-## 📋 最初に読むべきファイル
-
-| 優先度 | ファイル | 内容 |
-|---|---|---|
-| ★★★ | `final-report.md` | 最終統合レポート（必読） |
-| ★★★ | `creativity-habits-research.md` | 創造性習慣研究メインドキュメント |
-| ★★ | `research-plan.md` | 調査計画 |
-| ★★ | `quality-check-report.md` | 品質チェックレポート |
+| 項目 | 値 |
+|---|---|
+| リポジトリ | KazuyaMurayama/creativity-research-v1 |
+| ブランチ | main |
+| 総ファイル数 | 15 |
+| 最終更新 | 2026-05-02 |
+| 管理者 | 男座員也（Kazuya Oza） |
 
 ---
 
-## 🗂️ ディレクトリ構造
+## カテゴリ別サマリー
+
+| カテゴリ | ファイル数 |
+|---|---|
+| Documentation | 14 |
+| Config | 1 |
+
+---
+
+## ディレクトリ構成
 
 ```
-creativity-research-v1/
-├── research-plan.md             ← 調査計画
-├── creativity-habits-research.md← メイン研究ドキュメント
+.
+├── .gitignore
 ├── agent1-deep-dive-report.md
-├── research-agent-2-report-F-J.md
 ├── agent3-deep-dive-K-O.md
+├── CLAUDE.md
+├── creativity-habits-research.md
+├── FILE_INDEX.md
+├── final-report.md
 ├── knowledge-base-entry-1.md
 ├── knowledge-base-entry-2.md
 ├── quality-check-report.md
-└── final-report.md              ← 最終統合レポート
+├── README.md
+├── research-agent-2-report-F-J.md
+├── research-plan.md
+├── tasks.md
+└── Timeout_Prevention.md
 ```
 
 ---
 
-## 📑 全ファイル一覧
+## ファイル詳細
 
-| パス | 種別 | 説明 |
+### Documentation (14件)
+
+| ファイル | サイズ | 説明 |
 |---|---|---|
-| `research-plan.md` | ドキュメント | 調査計画 |
-| `creativity-habits-research.md` | レポート | 創造性習慣研究メインドキュメント |
-| `agent1-deep-dive-report.md` | レポート | エージェント1深堀りレポート（A-E） |
-| `research-agent-2-report-F-J.md` | レポート | エージェント2レポート（F-J） |
-| `agent3-deep-dive-K-O.md` | レポート | エージェント3深堀りレポート（K-O） |
-| `knowledge-base-entry-1.md` | 知識 | 知識ベースエントリ1 |
-| `knowledge-base-entry-2.md` | 知識 | 知識ベースエントリ2 |
-| `quality-check-report.md` | レポート | 品質チェックレポート |
-| `final-report.md` | レポート | 最終統合レポート |
+| `agent1-deep-dive-report.md` | 47.0 KB | Markdown ドキュメント |
+| `agent3-deep-dive-K-O.md` | 53.8 KB | Markdown ドキュメント |
+| `CLAUDE.md` | 1.3 KB | Claude Code プロジェクト設定・命名ルール |
+| `creativity-habits-research.md` | 32.4 KB | Markdown ドキュメント |
+| `FILE_INDEX.md` | 2.3 KB | （このファイル）全ファイルインデックス |
+| `final-report.md` | 32.9 KB | Markdown ドキュメント |
+| `knowledge-base-entry-1.md` | 3.7 KB | Markdown ドキュメント |
+| `knowledge-base-entry-2.md` | 4.8 KB | Markdown ドキュメント |
+| `quality-check-report.md` | 35.3 KB | Markdown ドキュメント |
+| `README.md` | 2.1 KB | リポジトリ概要・セットアップ手順 |
+| `research-agent-2-report-F-J.md` | 46.8 KB | Markdown ドキュメント |
+| `research-plan.md` | 5.2 KB | Markdown ドキュメント |
+| `tasks.md` | 1.2 KB | タスク管理・セッション履歴 |
+| `Timeout_Prevention.md` | 4.9 KB | タイムアウト対策ガイド |
+
+### Config (1件)
+
+| ファイル | サイズ | 説明 |
+|---|---|---|
+| `.gitignore` | 377 B | Git 除外設定 |
 
 ---
 
-## 🔖 ファイル更新ルール
-
-1. 新ファイル追加時: 該当セクションに1行追加
-2. ファイル削除・移動時: 該当行を削除または更新
-3. 更新後: `git add FILE_INDEX.md && git commit -m "docs: FILE_INDEX.md更新"`
+_自動生成: 2026-05-02 | 管理者: 男座員也（Kazuya Oza）_
